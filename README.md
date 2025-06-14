@@ -29,6 +29,7 @@ A sleek and responsive Music Player built using **HTML**, **CSS**, and **JavaScr
 ## 📦 Notes
 
 - This is a front-end only project.
+- The photos used in this project are sourced from the internet to visually enhance the presentation.
 - Audio and image files are stored locally.
 - Background color changes randomly for visual engagement.
 
