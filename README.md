@@ -1,4 +1,3 @@
-
 # 🎵 Music Player
 
 A sleek and responsive Music Player built using **HTML**, **CSS**, and **JavaScript**. This app allows users to play, pause, and navigate through a curated playlist, complete with dynamic visuals and time tracking.
