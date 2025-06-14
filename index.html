@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="icon" href="#">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Audio -->
+        <audio src="" class="audioTag"></audio>
+
+        <!-- About Songs -->
+        <div class="songDiv">
+            <div class="trackImage"><!-- Track Image --></div>
+            <div class="trackName"><!-- Track Name --></div>
+            <div class="trackArtist"><!-- Track Artist --></div>
+        </div>
+
+        <!-- About Time -->
+        <div class="timeDiv">
+            <div class="currentDisplay">00:00</div>
+            <div class="totalTimeLength">
+                <div class="currentTime">
+                </div>
+            </div>
+            <div class="totalDisplay">00:00</div>
+        </div>
+
+        <!-- About Buttons -->
+        <div class="button">
+            <div class="previousBtn">
+                <i class="fa-solid fa-step-backward fa-2x" onclick="previous()"></i>
+            </div>
+            <div class="playpauseBtn">
+                <i class="playBtn fa-solid fa-circle-play fa-4x" onclick="playSong()"></i>
+                <i class="pauseBtn fa-solid fa-circle-pause fa-4x hidden" onclick="pauseSong()"></i>
+            </div>
+            <div class="nextBtn">
+                <i class="fa-solid fa-forward-step fa-2x" onclick="next()"></i>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
